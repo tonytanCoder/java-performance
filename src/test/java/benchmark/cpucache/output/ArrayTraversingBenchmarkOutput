@@ -1,0 +1,179 @@
+D:\tools\jdk\anz\bin\java.exe "-javaagent:D:\tools\idea\anz\IntelliJ IDEA 2020.1.1\lib\idea_rt.jar=50545:D:\tools\idea\anz\IntelliJ IDEA 2020.1.1\bin" -Dfile.encoding=UTF-8 -classpath D:\tools\jdk\anz\jre\lib\charsets.jar;D:\tools\jdk\anz\jre\lib\deploy.jar;D:\tools\jdk\anz\jre\lib\ext\access-bridge-64.jar;D:\tools\jdk\anz\jre\lib\ext\cldrdata.jar;D:\tools\jdk\anz\jre\lib\ext\dnsns.jar;D:\tools\jdk\anz\jre\lib\ext\jaccess.jar;D:\tools\jdk\anz\jre\lib\ext\jfxrt.jar;D:\tools\jdk\anz\jre\lib\ext\localedata.jar;D:\tools\jdk\anz\jre\lib\ext\nashorn.jar;D:\tools\jdk\anz\jre\lib\ext\sunec.jar;D:\tools\jdk\anz\jre\lib\ext\sunjce_provider.jar;D:\tools\jdk\anz\jre\lib\ext\sunmscapi.jar;D:\tools\jdk\anz\jre\lib\ext\sunpkcs11.jar;D:\tools\jdk\anz\jre\lib\ext\zipfs.jar;D:\tools\jdk\anz\jre\lib\javaws.jar;D:\tools\jdk\anz\jre\lib\jce.jar;D:\tools\jdk\anz\jre\lib\jfr.jar;D:\tools\jdk\anz\jre\lib\jfxswt.jar;D:\tools\jdk\anz\jre\lib\jsse.jar;D:\tools\jdk\anz\jre\lib\management-agent.jar;D:\tools\jdk\anz\jre\lib\plugin.jar;D:\tools\jdk\anz\jre\lib\resources.jar;D:\tools\jdk\anz\jre\lib\rt.jar;E:\冲刺\性能\git\java-performance\target\test-classes;E:\冲刺\性能\git\java-performance\target\classes;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter\2.3.4.RELEASE\spring-boot-starter-2.3.4.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot\2.3.4.RELEASE\spring-boot-2.3.4.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\5.2.9.RELEASE\spring-context-5.2.9.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.3.4.RELEASE\spring-boot-autoconfigure-2.3.4.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.3.4.RELEASE\spring-boot-starter-logging-2.3.4.RELEASE.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.13.3\log4j-to-slf4j-2.13.3.jar;C:\Users\Administrator\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;C:\Users\Administrator\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\5.2.9.RELEASE\spring-core-5.2.9.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jcl\5.2.9.RELEASE\spring-jcl-5.2.9.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\yaml\snakeyaml\1.26\snakeyaml-1.26.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.3.4.RELEASE\spring-boot-starter-test-2.3.4.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-test\2.3.4.RELEASE\spring-boot-test-2.3.4.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.3.4.RELEASE\spring-boot-test-autoconfigure-2.3.4.RELEASE.jar;C:\Users\Administrator\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\Administrator\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Administrator\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Administrator\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Administrator\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Administrator\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Administrator\.m2\repository\org\assertj\assertj-core\3.16.1\assertj-core-3.16.1.jar;C:\Users\Administrator\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Administrator\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.2\junit-jupiter-5.6.2.jar;C:\Users\Administrator\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\Administrator\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrator\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Administrator\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\Administrator\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\Administrator\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\Administrator\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\Administrator\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy\1.10.14\byte-buddy-1.10.14.jar;C:\Users\Administrator\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.14\byte-buddy-agent-1.10.14.jar;C:\Users\Administrator\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Administrator\.m2\repository\org\mockito\mockito-junit-jupiter\3.3.3\mockito-junit-jupiter-3.3.3.jar;C:\Users\Administrator\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Administrator\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-test\5.2.9.RELEASE\spring-test-5.2.9.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\xmlunit\xmlunit-core\2.7.0\xmlunit-core-2.7.0.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.2.0.RELEASE\spring-boot-starter-web-2.2.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.3.4.RELEASE\spring-boot-starter-json-2.3.4.RELEASE.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.11.2\jackson-databind-2.11.2.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.11.2\jackson-annotations-2.11.2.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.11.2\jackson-core-2.11.2.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.11.2\jackson-datatype-jdk8-2.11.2.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.11.2\jackson-datatype-jsr310-2.11.2.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.11.2\jackson-module-parameter-names-2.11.2.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.3.4.RELEASE\spring-boot-starter-tomcat-2.3.4.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.38\tomcat-embed-core-9.0.38.jar;C:\Users\Administrator\.m2\repository\org\glassfish\jakarta.el\3.0.3\jakarta.el-3.0.3.jar;C:\Users\Administrator\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.38\tomcat-embed-websocket-9.0.38.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-validation\2.3.4.RELEASE\spring-boot-starter-validation-2.3.4.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\hibernate\validator\hibernate-validator\6.1.5.Final\hibernate-validator-6.1.5.Final.jar;C:\Users\Administrator\.m2\repository\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;C:\Users\Administrator\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-web\5.2.9.RELEASE\spring-web-5.2.9.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\5.2.9.RELEASE\spring-beans-5.2.9.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-webmvc\5.2.9.RELEASE\spring-webmvc-5.2.9.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\5.2.9.RELEASE\spring-aop-5.2.9.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\5.2.9.RELEASE\spring-expression-5.2.9.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\openjdk\jmh\jmh-core\1.26\jmh-core-1.26.jar;C:\Users\Administrator\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-math3\3.2\commons-math3-3.2.jar;C:\Users\Administrator\.m2\repository\org\openjdk\jmh\jmh-generator-annprocess\1.26\jmh-generator-annprocess-1.26.jar benchmark.cpucache.ArrayTraversingBenchmark
+# JMH version: 1.26
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: D:\tools\jdk\anz\jre\bin\java.exe
+# VM options: -javaagent:D:\tools\idea\anz\IntelliJ IDEA 2020.1.1\lib\idea_rt.jar=50545:D:\tools\idea\anz\IntelliJ IDEA 2020.1.1\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: benchmark.cpucache.ArrayTraversingBenchmark.measureThroughput
+
+# Run progress: 0.00% complete, ETA 00:16:40
+# Fork: 1 of 5
+# Warmup Iteration   1: 804108.186 ops/s
+# Warmup Iteration   2: 809109.033 ops/s
+# Warmup Iteration   3: 795433.310 ops/s
+# Warmup Iteration   4: 797496.178 ops/s
+# Warmup Iteration   5: 789452.656 ops/s
+Iteration   1: 786282.245 ops/s
+Iteration   2: 780080.064 ops/s
+Iteration   3: 782902.118 ops/s
+Iteration   4: 783683.146 ops/s
+Iteration   5: 783421.686 ops/s
+
+# Run progress: 10.00% complete, ETA 00:15:06
+# Fork: 2 of 5
+# Warmup Iteration   1: 792955.691 ops/s
+# Warmup Iteration   2: 793534.148 ops/s
+# Warmup Iteration   3: 780947.394 ops/s
+# Warmup Iteration   4: 781643.779 ops/s
+# Warmup Iteration   5: 781776.592 ops/s
+Iteration   1: 781690.321 ops/s
+Iteration   2: 781501.927 ops/s
+Iteration   3: 781114.743 ops/s
+Iteration   4: 781487.888 ops/s
+Iteration   5: 780939.519 ops/s
+
+# Run progress: 20.00% complete, ETA 00:13:28
+# Fork: 3 of 5
+# Warmup Iteration   1: 792191.003 ops/s
+# Warmup Iteration   2: 802489.494 ops/s
+# Warmup Iteration   3: 794072.917 ops/s
+# Warmup Iteration   4: 786294.798 ops/s
+# Warmup Iteration   5: 782440.058 ops/s
+Iteration   1: 782299.494 ops/s
+Iteration   2: 781782.770 ops/s
+Iteration   3: 782710.615 ops/s
+Iteration   4: 782233.085 ops/s
+Iteration   5: 782581.030 ops/s
+
+# Run progress: 30.00% complete, ETA 00:11:46
+# Fork: 4 of 5
+# Warmup Iteration   1: 793463.884 ops/s
+# Warmup Iteration   2: 795119.296 ops/s
+# Warmup Iteration   3: 788603.178 ops/s
+# Warmup Iteration   4: 796185.360 ops/s
+# Warmup Iteration   5: 799160.210 ops/s
+Iteration   1: 796093.031 ops/s
+Iteration   2: 789718.364 ops/s
+Iteration   3: 795432.654 ops/s
+Iteration   4: 794787.210 ops/s
+Iteration   5: 791379.710 ops/s
+
+# Run progress: 40.00% complete, ETA 00:10:05
+# Fork: 5 of 5
+# Warmup Iteration   1: 792690.553 ops/s
+# Warmup Iteration   2: 793904.684 ops/s
+# Warmup Iteration   3: 781659.795 ops/s
+# Warmup Iteration   4: 779713.773 ops/s
+# Warmup Iteration   5: 779474.892 ops/s
+Iteration   1: 782054.652 ops/s
+Iteration   2: 782057.876 ops/s
+Iteration   3: 782205.527 ops/s
+Iteration   4: 782634.900 ops/s
+Iteration   5: 782734.536 ops/s
+
+
+Result "benchmark.cpucache.ArrayTraversingBenchmark.measureThroughput":
+  784552.365 ±(99.9%) 3616.724 ops/s [Average]
+  (min, avg, max) = (780080.064, 784552.365, 796093.031), stdev = 4828.223
+  CI (99.9%): [780935.640, 788169.089] (assumes normal distribution)
+
+
+# JMH version: 1.26
+# VM version: JDK 1.8.0_112, Java HotSpot(TM) 64-Bit Server VM, 25.112-b15
+# VM invoker: D:\tools\jdk\anz\jre\bin\java.exe
+# VM options: -javaagent:D:\tools\idea\anz\IntelliJ IDEA 2020.1.1\lib\idea_rt.jar=50545:D:\tools\idea\anz\IntelliJ IDEA 2020.1.1\bin -Dfile.encoding=UTF-8
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: benchmark.cpucache.ArrayTraversingBenchmark.measureThroughput2
+
+# Run progress: 50.00% complete, ETA 00:08:24
+# Fork: 1 of 5
+# Warmup Iteration   1: 181933.727 ops/s
+# Warmup Iteration   2: 252080.270 ops/s
+# Warmup Iteration   3: 175348.077 ops/s
+# Warmup Iteration   4: 175334.737 ops/s
+# Warmup Iteration   5: 175372.441 ops/s
+Iteration   1: 175344.745 ops/s
+Iteration   2: 175389.496 ops/s
+Iteration   3: 175275.362 ops/s
+Iteration   4: 175381.056 ops/s
+Iteration   5: 175324.526 ops/s
+
+# Run progress: 60.00% complete, ETA 00:06:43
+# Fork: 2 of 5
+# Warmup Iteration   1: 181871.457 ops/s
+# Warmup Iteration   2: 251964.952 ops/s
+# Warmup Iteration   3: 175315.712 ops/s
+# Warmup Iteration   4: 175090.278 ops/s
+# Warmup Iteration   5: 175232.592 ops/s
+Iteration   1: 175258.096 ops/s
+Iteration   2: 174631.596 ops/s
+Iteration   3: 175275.187 ops/s
+Iteration   4: 176783.347 ops/s
+Iteration   5: 177753.398 ops/s
+
+# Run progress: 70.00% complete, ETA 00:05:02
+# Fork: 3 of 5
+# Warmup Iteration   1: 184233.111 ops/s
+# Warmup Iteration   2: 253997.299 ops/s
+# Warmup Iteration   3: 177628.033 ops/s
+# Warmup Iteration   4: 177216.399 ops/s
+# Warmup Iteration   5: 177860.487 ops/s
+Iteration   1: 177154.936 ops/s
+Iteration   2: 176957.682 ops/s
+Iteration   3: 176036.768 ops/s
+Iteration   4: 175454.855 ops/s
+Iteration   5: 174771.196 ops/s
+
+# Run progress: 80.00% complete, ETA 00:03:21
+# Fork: 4 of 5
+# Warmup Iteration   1: 181160.054 ops/s
+# Warmup Iteration   2: 251095.938 ops/s
+# Warmup Iteration   3: 174964.704 ops/s
+# Warmup Iteration   4: 174436.420 ops/s
+# Warmup Iteration   5: 177809.541 ops/s
+Iteration   1: 178219.429 ops/s
+Iteration   2: 178463.875 ops/s
+Iteration   3: 177864.741 ops/s
+Iteration   4: 177441.103 ops/s
+Iteration   5: 178007.118 ops/s
+
+# Run progress: 90.00% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 184068.636 ops/s
+# Warmup Iteration   2: 255046.877 ops/s
+# Warmup Iteration   3: 174732.281 ops/s
+# Warmup Iteration   4: 176185.235 ops/s
+# Warmup Iteration   5: 174038.505 ops/s
+Iteration   1: 174877.417 ops/s
+Iteration   2: 173851.926 ops/s
+Iteration   3: 174229.636 ops/s
+Iteration   4: 174150.766 ops/s
+Iteration   5: 174358.215 ops/s
+
+
+Result "benchmark.cpucache.ArrayTraversingBenchmark.measureThroughput2":
+  175930.259 ±(99.9%) 1064.243 ops/s [Average]
+  (min, avg, max) = (173851.926, 175930.259, 178463.875), stdev = 1420.734
+  CI (99.9%): [174866.016, 176994.502] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:16:48
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                     Mode  Cnt       Score      Error  Units
+ArrayTraversingBenchmark.measureThroughput   thrpt   25  784552.365 ± 3616.724  ops/s
+ArrayTraversingBenchmark.measureThroughput2  thrpt   25  175930.259 ± 1064.243  ops/s
+
