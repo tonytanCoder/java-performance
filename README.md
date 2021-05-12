@@ -36,6 +36,10 @@ java -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions -XX:+PrintF
 
 
 栈上分配：https://stackoverflow.com/questions/43002528/when-can-hotspot-allocate-objects-on-the-stack
+https://luoyoubao.gitbooks.io/jvm/content/bian-yi-you-hua/zhan-shang-fen-pei.html
+https://www.beyondjava.net/category/jit
+https://shipilev.net/jvm/anatomy-quarks/
+http://blog.ragozin.info/2012/10/safepoints-in-hotspot-jvm.html
 
 
 
